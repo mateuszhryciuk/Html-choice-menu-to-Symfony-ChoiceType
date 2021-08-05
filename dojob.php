@@ -1,3 +1,8 @@
+//Transform this : "<option value='xx'>XXX</option>" to this : "'XXX'=>'xx',"
+//Might be useful for large choice menus as Language or Country choice you can find on Web.
+
+
+
 <?php
 error_reporting(0);
 $file = fopen("languages.txt", "r+"); // file to read from 
